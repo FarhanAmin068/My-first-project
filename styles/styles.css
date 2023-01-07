@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  font-family: "Work Sans";
+}
+.btn-primary {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 20px;
+  border: 0;
+  padding: 20px 35px;
+  height: 65px;
+  background: #fd6e0a;
+  border-radius: 5px;
+}
+.btn-secondary {
+  color: #fd6e0a;
+  font-weight: 600;
+  font-size: 20px;
+  border: 0;
+  padding: 20px 35px;
+  height: 65px;
+  background: #ffffff;
+  border-radius: 5px;
+}
+section {
+  margin-top: 130px;
+}
+
+
+/*Beginning Section*/
+.banner {
+  background: #fff8f3;
+  background-image: url("../images/banner/banner1.png");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.begin {
+  text-align: right;
+  padding-top: 200px;
+  padding-right: 400px;
+}
+.head1 {
+  font-weight: 800;
+  font-size: 80px;
+  color: black;
+}
+.para1 {
+  font-weight: 400;
+  font-size: 20px;
+  color: #444343;
+  padding-top: 24px;
+  padding-bottom: 32px;
+}
+
+
+/*  My prev failure*/
+.secall {
+  background-color: #ffffff;
+}
+.div1 {
+  display: flex;
+  justify-content: space-around;
+}
+.div1a {
+  padding-left: 200px;
+}
+.div1b {
+  padding-top: 180px;
+  padding-right: 200px;
+}
+.head2 {
+  font-weight: 900;
+  font-size: 60px;
+}
+.para2 {
+  font-weight: 400;
+  font-size: 20px;
+  color: #444343;
+  padding-top: 18px;
+  padding-bottom: 10px;
+}
+
+
+/*My plans */
+.div2 {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 230px;
+  padding-right: 230px;
+}
+.head3 {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 50px;
+  padding-bottom: 50px;
+  padding-top: 130px;
+}
+.head4 {
+  font-weight: 700;
+  font-size: 30px;
+}
+.para3 {
+  padding-top: 20px;
+  font-weight: 500;
+  font-size: 25px;
+
+  color: #737272;
+}
+.plan-and-skill {
+  text-align: center;
+}
+
+/*self section(my skills)*/
+.div3 {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 300px;
+  padding-right: 200px;
+}
+
+/*Adding Gradient to Image*/
+.grad-container {
+  background-image:linear-gradient(to right,#ff8a00, #e52e71 ), url("../images/watch.png");
+  background-blend-mode:multiply;
+  text-align: center;
+  height: 30vh;
+  margin-right: 250px;
+  margin-left: 350px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: left;
+  padding-left:30px;
+}
+.head5 {
+  font-weight: 900;
+  font-size: 40px;
+  padding-top: 40px;
+  padding-bottom: 50px;
+  color: #ffffff;
+}
+
+
+/*final part*/
+.finalsec{
+    background-color: black;
+  
+}
+.finaldiv{
+    display:flex;
+    justify-content: space-between;
+    padding-left: 350px;
+    padding-right: 300px;
+}
+.para4{
+    padding-top: 20px;
+  font-weight: 500;
+  font-size: 20px;
+  color: #ffffff;
+  padding-bottom: 40px;
+}
+.imgdiv{
+    display:flex;
+    justify-content: space-between;
+    gap:10px;
+    padding-right: 150px;
+
+}
+.section-title{
+    text-align: left;
+}
+.finalsec input[type="email"]{
+    margin-bottom: 24px;
+    border:10;
+    width:100%;
+    padding: 24px 30px;
+}
+
